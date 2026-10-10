@@ -1,0 +1,39 @@
+{
+  "title": "{{TITLE}}",
+  "shortTitle": "{{DOCNO}}",
+  "tabs": [
+    {
+      "id": "home", "group": "Start", "label": "Home", "sub": "Progress and next step",
+      "chapters": [
+        { "id": "start", "title": "Home", "file": "home/start.html", "hideHeader": true }
+      ]
+    },
+    {
+      "id": "program", "group": "Start", "label": "Program", "sub": "Introduction and schedule",
+      "chapters": [
+        { "id": "introduction", "num": "00-00-00", "title": "Introduction", "file": "program/introduction.html" },
+        { "id": "schedule", "num": "00-10-00", "title": "Program schedule", "file": "program/schedule.html" },
+        { "id": "applicability", "num": "00-15-00", "title": "Applicability and revisions", "file": "program/applicability.html" }
+      ]
+    },
+    {
+      "id": "week-0", "group": "Weeks", "label": "Week 0", "sub": "Set-up and background",
+      "chapters": [
+        { "id": "setup", "num": "00-20-00", "title": "Computer set-up", "file": "week-00/setup.html" },
+        { "id": "primer", "num": "00-30-00", "title": "Background primer and reading", "file": "week-00/primer.html" },
+        { "id": "check", "num": "00-90-00", "title": "Check and record", "file": "week-00/check.html" }
+      ]
+    },
+    { "id": "week-1", "group": "Weeks", "label": "Week 1", "sub": "Core fundamentals", "planned": true },
+    { "id": "week-2", "group": "Weeks", "label": "Week 2", "sub": "Architecture and patterns", "planned": true },
+    { "id": "week-3", "group": "Weeks", "label": "Week 3", "sub": "Implementation details", "planned": true },
+    { "id": "week-4", "group": "Weeks", "label": "Week 4", "sub": "Optimization and verification", "planned": true },
+    {
+      "id": "reference", "group": "Research and reference", "label": "Reference", "sub": "Glossary and sources",
+      "chapters": [
+        { "id": "glossary", "num": "REF-20", "title": "Glossary", "file": "reference/glossary.html" },
+        { "id": "references", "num": "REF-30", "title": "List of references", "file": "reference/references.html" }
+      ]
+    }
+  ]
+}
